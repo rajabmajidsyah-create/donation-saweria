@@ -182,7 +182,7 @@ app.get('/debug', (req, res) => {
 })
 
 app.get('/test', (req, res) => {
-    const names = ["@Pepekluanjg"]
+    const names = ["@GAGcismin"]
     const messages = ["Semangat!", "GG bang!", "@MyRobloxName mantap!", ""]
     const nama = names[Math.floor(Math.random() * names.length)]
     const jumlah = Math.floor(Math.random() * 50000) + 1000
@@ -222,7 +222,7 @@ app.get('/reset', (req, res) => {
 
 app.get('/', (req, res) => {
     res.json({ 
-        status: "BMS STUDIO SAWERIA",
+        status: "CVA STUDIO",
         info: "Gunakan @username di nama atau pesan untuk link ke Roblox",
         totalDonatur: Object.keys(topDonatur).length,
         totalDonasi
